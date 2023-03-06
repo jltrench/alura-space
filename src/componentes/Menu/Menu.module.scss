@@ -32,6 +32,11 @@
       width: 25px;
       height: 25px;
       cursor: pointer;
+      transition: all .3s ease-in;
+      &:hover {
+        transform: scale(1.2);
+        transform: rotate(-40deg);
+      }
     }
   
     a {
@@ -39,5 +44,8 @@
       font-size: 1.125rem;
       color: $cor-do-texto;
       font-family: $fonte-normal;
+      &:hover {
+        color: $roxo;
+      }
     }
   }
